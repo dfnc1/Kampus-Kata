@@ -49,7 +49,7 @@ assets/
 2. Clone repositori:
 
 ```bash
-   git clone https://github.com/[username]/kampuskata.git
+   git clone https://github.com/dfnc1/kampus-kata.git
    cd kampuskata
 ```
 
