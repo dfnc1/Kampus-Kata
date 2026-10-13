@@ -1,0 +1,132 @@
+{
+  "kategori": [
+    { "id": 1, "nama": "Chat Dosen", "ikon": "school" },
+    { "id": 2, "nama": "Izin & Alasan", "ikon": "event_busy" },
+    { "id": 3, "nama": "Tugas Kelompok", "ikon": "groups" },
+    { "id": 4, "nama": "Organisasi & Acara", "ikon": "campaign" },
+    { "id": 5, "nama": "Administrasi", "ikon": "description" },
+    { "id": 6, "nama": "Darurat", "ikon": "warning" }
+  ],
+  "templates": [
+    {
+      "id": 1,
+      "judul": "Minta Perpanjangan Deadline",
+      "kategori": "Chat Dosen",
+      "tingkat_formal": "Formal",
+      "isi": "Selamat siang, Bapak/Ibu. Mohon maaf mengganggu waktunya. Saya ingin memohon perpanjangan waktu pengumpulan tugas karena mengalami kendala (jelaskan singkat dan jujur). Saya berkomitmen mengumpulkan paling lambat (tanggal). Atas perhatian Bapak/Ibu, saya ucapkan terima kasih.",
+      "tips": "Kirim sebelum deadline, bukan sesudahnya.",
+      "kapan_dipakai": "Saat tugas belum selesai karena kendala nyata.",
+      "jangan_dilakukan": "Jangan kirim lewat tengah malam atau tanpa salam."
+    },
+    {
+      "id": 2,
+      "judul": "Minta Jadwal Bimbingan",
+      "kategori": "Chat Dosen",
+      "tingkat_formal": "Formal",
+      "isi": "Selamat pagi, Bapak/Ibu. Perkenalkan, saya (nama) dari kelas (kelas), NIM (NIM). Saya ingin mengajukan jadwal bimbingan mengenai (topik). Apakah Bapak/Ibu berkenan memberikan waktu pada (hari/tanggal)? Terima kasih atas waktunya.",
+      "tips": "Sebutkan nama, NIM, dan topik di pesan pertama agar dosen langsung paham.",
+      "kapan_dipakai": "Saat ingin bimbingan skripsi, proyek, atau konsultasi materi.",
+      "jangan_dilakukan": "Jangan hanya mengirim 'Pagi pak' lalu menunggu dibalas."
+    },
+    {
+      "id": 3,
+      "judul": "Tanya Nilai Tugas",
+      "kategori": "Chat Dosen",
+      "tingkat_formal": "Formal",
+      "isi": "Selamat siang, Bapak/Ibu. Mohon maaf mengganggu. Saya ingin menanyakan nilai tugas (nama tugas) yang sudah saya kumpulkan pada (tanggal). Apakah ada bagian yang perlu saya perbaiki? Terima kasih, Bapak/Ibu.",
+      "tips": "Tanyakan umpan balik, bukan hanya angka nilainya.",
+      "kapan_dipakai": "Setelah batas waktu penilaian lewat dan nilai belum muncul.",
+      "jangan_dilakukan": "Jangan menagih nilai berkali-kali dalam sehari."
+    },
+    {
+      "id": 4,
+      "judul": "Izin Tidak Hadir Kuliah",
+      "kategori": "Izin & Alasan",
+      "tingkat_formal": "Formal",
+      "isi": "Selamat pagi, Bapak/Ibu. Saya (nama), NIM (NIM) dari kelas (kelas). Mohon maaf, saya tidak dapat mengikuti perkuliahan (mata kuliah) hari ini karena (alasan jujur). Saya akan mengejar materi dan tugas yang tertinggal. Terima kasih atas pengertiannya.",
+      "tips": "Kirim sebelum kelas dimulai, lampirkan bukti jika ada (surat dokter, dll).",
+      "kapan_dipakai": "Sakit, urusan keluarga, atau kegiatan resmi kampus.",
+      "jangan_dilakukan": "Jangan memakai alasan palsu. Jujur singkat lebih dihargai."
+    },
+    {
+      "id": 5,
+      "judul": "Minta Maaf Terlambat Masuk Kelas",
+      "kategori": "Izin & Alasan",
+      "tingkat_formal": "Santai",
+      "isi": "Permisi, Pak/Bu. Mohon maaf saya terlambat karena (alasan singkat dan jujur). Apakah saya diperkenankan mengikuti kelas? Terima kasih, Pak/Bu.",
+      "tips": "Masuk dengan tenang, duduk di barisan belakang, lalu tanya teman materi yang terlewat.",
+      "kapan_dipakai": "Saat sudah terlanjur terlambat dan perlu izin masuk.",
+      "jangan_dilakukan": "Jangan membuat cerita panjang atau menyalahkan pihak lain."
+    },
+    {
+      "id": 6,
+      "judul": "Menagih Bagian Tugas Kelompok",
+      "kategori": "Tugas Kelompok",
+      "tingkat_formal": "Santai",
+      "isi": "Halo (nama), gimana progres bagian (bagian tugas)? Deadline kita (tanggal), jadi idealnya sudah terkumpul paling lambat (tanggal). Kalau ada kendala, kabari saja ya supaya bisa kita bantu atau bagi ulang.",
+      "tips": "Beri tenggat internal lebih awal dari deadline asli.",
+      "kapan_dipakai": "Saat teman kelompok belum mengirim bagiannya.",
+      "jangan_dilakukan": "Jangan menyindir di grup di depan semua orang. Chat pribadi dulu."
+    },
+    {
+      "id": 7,
+      "judul": "Usul Pembagian Tugas Kelompok",
+      "kategori": "Tugas Kelompok",
+      "tingkat_formal": "Santai",
+      "isi": "Halo semua, biar efisien, aku usul pembagiannya: (nama) bagian (A), (nama) bagian (B), (nama) bagian (C). Target selesai masing-masing tanggal (tanggal), lalu kita gabung bareng. Ada yang mau tukar atau punya usul lain?",
+      "tips": "Tawarkan, jangan memerintah, supaya semua merasa dilibatkan.",
+      "kapan_dipakai": "Di awal pengerjaan tugas kelompok.",
+      "jangan_dilakukan": "Jangan membagi tugas tanpa menanyakan kesiapan anggota."
+    },
+    {
+      "id": 8,
+      "judul": "Mengundang Narasumber",
+      "kategori": "Organisasi & Acara",
+      "tingkat_formal": "Formal",
+      "isi": "Yth. Bapak/Ibu (nama). Kami dari (organisasi) bermaksud mengundang Bapak/Ibu sebagai narasumber pada acara (nama acara) yang akan dilaksanakan pada (hari/tanggal) di (tempat). Surat undangan resmi terlampir. Mohon konfirmasi kesediaan Bapak/Ibu. Terima kasih.",
+      "tips": "Kirim minimal 2 minggu sebelum acara dan lampirkan surat resmi.",
+      "kapan_dipakai": "Saat menyusun seminar, workshop, atau kuliah tamu.",
+      "jangan_dilakukan": "Jangan mengundang mendadak tanpa surat atau rincian acara."
+    },
+    {
+      "id": 9,
+      "judul": "Izin Peminjaman Ruangan",
+      "kategori": "Organisasi & Acara",
+      "tingkat_formal": "Formal",
+      "isi": "Selamat siang, Bapak/Ibu. Kami dari (organisasi) ingin mengajukan peminjaman ruang (nama ruang) pada (hari/tanggal) pukul (jam) untuk keperluan (kegiatan). Kami siap menjaga kebersihan dan mengembalikan ruangan seperti semula. Terima kasih.",
+      "tips": "Cek jadwal ruangan dulu supaya tidak bentrok.",
+      "kapan_dipakai": "Saat butuh ruang untuk rapat, latihan, atau acara.",
+      "jangan_dilakukan": "Jangan mengajukan di hari yang sama dengan acara."
+    },
+    {
+      "id": 10,
+      "judul": "Minta Surat Keterangan Aktif Kuliah",
+      "kategori": "Administrasi",
+      "tingkat_formal": "Formal",
+      "isi": "Selamat pagi, Bapak/Ibu admin. Saya (nama), NIM (NIM), program studi (prodi). Saya ingin mengajukan surat keterangan aktif kuliah untuk keperluan (keperluan). Mohon informasi syarat dan perkiraan waktu prosesnya. Terima kasih.",
+      "tips": "Tanyakan syarat dan lama proses di awal agar tidak bolak-balik.",
+      "kapan_dipakai": "Untuk beasiswa, magang, atau administrasi lain.",
+      "jangan_dilakukan": "Jangan meminta di hari yang sama kalau butuhnya mendesak tanpa konfirmasi."
+    },
+    {
+      "id": 11,
+      "judul": "Laptop Rusak Saat Tugas Mau Dikumpul",
+      "kategori": "Darurat",
+      "tingkat_formal": "Formal",
+      "isi": "Selamat siang, Bapak/Ibu. Mohon maaf, laptop saya mengalami kerusakan sehingga tugas (nama tugas) belum bisa saya kumpulkan tepat waktu. Saya sedang berusaha memperbaikinya dan mohon kelonggaran waktu hingga (tanggal). Bukti kerusakan dapat saya lampirkan. Terima kasih atas pengertiannya.",
+      "tips": "Jujur dan sertakan bukti (foto/nota servis) kalau ada.",
+      "kapan_dipakai": "Perangkat benar-benar bermasalah mendekati deadline.",
+      "jangan_dilakukan": "Jangan baru memberi kabar setelah deadline lewat."
+    },
+    {
+      "id": 12,
+      "judul": "Listrik atau Internet Padam",
+      "kategori": "Darurat",
+      "tingkat_formal": "Santai",
+      "isi": "Permisi, Pak/Bu. Mohon maaf, di tempat saya sedang (listrik/internet) padam sehingga saya kesulitan (mengikuti kelas daring/mengumpulkan tugas). Saya sedang mencari solusi dan akan segera menyusul begitu pulih. Terima kasih atas pengertiannya.",
+      "tips": "Kabari secepatnya, lalu kirim hasil kerja begitu kondisi normal.",
+      "kapan_dipakai": "Gangguan teknis di luar kendali saat kuliah daring atau mendekati deadline.",
+      "jangan_dilakukan": "Jangan menghilang tanpa kabar lalu muncul belakangan."
+    }
+  ]
+}
